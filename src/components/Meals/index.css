@@ -1,0 +1,7 @@
+.dumplings_display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-gap: 40px;
+    padding: 50px 200px;
+}

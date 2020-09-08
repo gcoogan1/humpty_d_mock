@@ -1,0 +1,80 @@
+.meal_card {
+  width: 200px;
+  min-height: 188px;
+  background-color: white;
+  text-align: center;
+  position: relative;
+}
+
+.meal_card p {
+  font-size: 16px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.meal_card_bottom {
+  display: flex;
+  justify-content: center;
+  grid-gap: 10px;
+  padding-top: 10px;
+}
+
+.vegan {
+  color: #5fb900;
+  width: 24px;
+  height: 24px;
+  border-radius: 100px;
+  border: 2px solid #5fb900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vegan p {
+  padding: 0;
+  align-self: center;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+.tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 10px;
+    position: absolute;
+    border: 2px solid #B22222;
+    z-index: 1;
+    bottom: 120%;
+    left: 30%;
+    margin-left: -60px;
+  }
+  
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #B22222  transparent transparent;
+    
+
+  
+  }
+  
+  .meal_card:hover .tooltiptext {
+    visibility: visible;
+  }

@@ -1,0 +1,106 @@
+.menu_wrapper {
+  min-height: 100vh;
+
+}
+
+.menu_header {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.chef {
+  width: 57px;
+  height: 50px;
+}
+
+.menu_title_wrapper {
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  width: 100px;
+}
+
+.border{
+    padding: 10px 0px 6px 0;
+    font-size: 32px
+}
+
+.menu_menu{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+    font-size: 20px;
+    color: #B22222;
+text-transform: uppercase;
+  }
+  .fancy span {
+    display: inline-block;
+    position: relative;  
+  }
+  .fancy span:before,
+  .fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 2px solid #B22222;;
+  
+    top: 0;
+    width: 200px;
+  }
+  .fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+    margin-top: -3px;
+  }
+  .fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+    margin-top: -3px;
+  }
+
+  .menu_info{
+      padding-top: 20px;
+      line-height: 30px;
+      font-size: 16px;
+  }
+
+  .speciality_info{
+    width: 100%;
+    padding: 50px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .speciality_box{
+    width: 640px;
+height: 64px;
+border: 1px solid #D1D2D4;
+border-radius: 50px;
+opacity: 0.99;
+display: grid;
+    grid-template-columns: 30% 60%;
+    justify-content: center;
+    align-content: center
+  }
+
+  .vegan_info{
+  
+  }
+
+  .vegan_info p{
+    display: inline-flex;
+  }
+
+  .align{
+    margin-top: -5px;
+    margin-right: 10px;
+    font-size: 24px;
+
+  }

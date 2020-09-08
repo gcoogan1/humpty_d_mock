@@ -1,0 +1,251 @@
+.location_wrapper {
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.location_header {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.chef {
+  width: 57px;
+  height: 50px;
+}
+
+.location_title_wrapper {
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  width: 190px;
+  text-transform: uppercase;
+}
+
+.location_border {
+  padding: 10px 0px 6px 0;
+  font-size: 32px;
+}
+
+.location_cards {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  grid-gap: 140px;
+  padding: 100px;
+}
+
+.location_card {
+  width: 400px;
+  height: 620px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location_card_center {
+  width: 281px;
+  height: 462px;
+  text-align: center;
+}
+.location_card_center h2 {
+  padding-bottom: 50px;
+  color: #b32222;
+}
+
+.location_card_info {
+  width: 281px;
+  height: 187px;
+
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+.location_card_info_display {
+  width: 281px;
+
+  font-size: 16px;
+  display: flex;
+}
+
+.left {
+  width: 90px;
+  text-align: left;
+
+  opacity: 0.5;
+}
+
+.right {
+  width: 190px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.location_card_btn {
+  margin-top: 80px;
+}
+
+.order {
+  width: 220px;
+  height: 72px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #b32222;
+  color: white;
+  border: 1px solid #b32222;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.order:focus {
+  outline: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.farmer_card_wrapper {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.farmer_card_center {
+  position: absolute;
+  height: 100%;
+}
+
+.center {
+  width: 100%;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+}
+
+.center_text_box {
+  width: 791px;
+  height: 114px;
+  background-color: #fafafa;
+  align-self: center;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.farmer_card {
+  width: 940px;
+  height: 271px;
+  border: 1px solid #d1d2d4;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.farmer_title {
+  width: 300px;
+  height: 50%;
+  background: #fafafa;
+  border: none;
+  text-align: center;
+}
+
+.farmer_title h3 {
+  font-size: 20px;
+  margin-top: -10px;
+  color: #b22222;
+  text-transform: uppercase;
+}
+.pre_order_wrapper {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.pre_order_btn {
+  width: 132px;
+  height: 46px;
+  margin-bottom: -35px;
+  border-radius: 5px;
+  background-color: #b32222;
+  color: white;
+  border: 1px solid #b32222;
+  font-size: 16px;
+}
+
+.center_divide {
+  display: flex;
+  justify-content: center;
+}
+
+.center_text {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+.center_text p {
+  line-height: 1.5;
+}
+
+.center_divide hr {
+  width: 1px;
+  border: none;
+  height: 60px;
+  background-color: #d1d2d4;
+  align-self: center;
+  opacity: 1;
+}
+
+.togo_cards {
+  width: 100%;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  grid-gap: 100px;
+}
+
+.togo_card {
+  width: 400px;
+  height: 143px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 20px;
+}
+
+.togo_card h2{
+    color: #B22222;
+text-transform: uppercase;
+opacity: 1;
+}
+.togo_btn_wrapper{
+    padding-top: 10px;
+    display: flex;
+    grid-gap: 10px;
+}
+.togo_btn{
+    padding: 16px 30px;
+    font-size: 16px;
+    color: #B22222;
+    border-radius: 5px;
+    border: 1px solid #B22222;
+    background:  transparent;
+}
+
+.insta{
+    background-image: url(../../assets/Icon_Instagram.svg); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 22px 15px;
+    padding: 16px 30px 16px 50px;
+    font-size: 16px;
+    color: #B22222;
+    border-radius: 5px;
+    border: 1px solid #B22222;
+    background-color:  transparent;
+}

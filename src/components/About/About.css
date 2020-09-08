@@ -1,0 +1,175 @@
+.about_wrapper {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.about_header {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.chef {
+  width: 57px;
+  height: 50px;
+}
+
+.about_title_wrapper {
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  width: 191px;
+  text-transform: uppercase;
+}
+
+.about_border {
+  padding: 10px 0px 6px 0;
+  font-size: 32px;
+}
+
+.about_center {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  padding: 100px 0px;
+  grid-gap: 70px;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 380px 380px;
+}
+
+.about_block {
+  width: 400px;
+  height: 380px;
+  background-color: #ffffff;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 40px;
+  line-height: 1.5;
+}
+
+.imgOne {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+
+.lighten {
+  color: #231f20;
+  opacity: 0.5;
+}
+
+.stone {
+  width: 400px;
+  height: 217px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #fafafa;
+  grid-gap: 8px;
+}
+
+.stone img {
+  width: 300px;
+  height: 67px;
+  align-self: center;
+}
+
+.zagat {
+  width: 400px;
+  height: 194px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #fafafa;
+  grid-gap: 8px;
+}
+
+.zagat img {
+  width: 300px;
+  height: 67px;
+  align-self: center;
+}
+
+.philly {
+  width: 400px;
+  height: 380px;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  grid-gap: 8px;
+}
+
+.philly img {
+  width: 300px;
+  height: 296px;
+  align-self: center;
+}
+
+.social_media_wrapper{
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 100px;
+    justify-content: center;
+}
+
+
+.social_media_rating {
+  width: 68px;
+  height: 106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.social_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.social_rating{
+    color: #B22222;
+text-transform: uppercase;
+opacity: 1;
+font-size: 20px;
+}
+
+.social_name{
+    color: #231F20;
+opacity: 0.5;
+font-size: 16px;
+}
+
+.fb{
+    background-color: #1976d2;
+}
+
+.yelp{
+    background-color: #F44336;
+}
+
+.google{
+    background: -webkit-linear-gradient( top left, #FBBD00, #CF2D48 ,#3C79E6, #31AA52);
+}
+
+.groupon{
+    background-color: #8BC34A;
+}
+
+.foursq{
+    background-color: #EC407A;
+}

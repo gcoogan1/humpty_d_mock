@@ -1,0 +1,41 @@
+.footer_wrapper {
+  width: 100%;
+  height: 438px;
+  background-color: #231f20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 40px;
+}
+
+.find_us {
+  display: flex;
+  flex-direction: column;
+  width: 152px;
+  height: 66px;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.find_us p {
+  color: #ffffff;
+}
+
+.find_us_links {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 16px;
+}
+
+.find_us_link {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  opacity: 1;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
