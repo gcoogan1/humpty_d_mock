@@ -8,7 +8,6 @@
 .header{
     display: flex;
     flex-direction: column;
-    height: 680px;
     padding-top: 200px;
 }
 
@@ -20,6 +19,7 @@
     grid-gap: 20px;
     padding-top: 40px;
     padding-inline-start: 0px;
+    flex-wrap: wrap;
 }
 
 .navbar li{
@@ -50,3 +50,18 @@
     box-shadow: none;
   }
 
+  @media (min-width: 481px) and (max-width: 767px) {
+  
+.top img{
+    width: 480px;
+}
+    
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+    .top img{
+        width: 300px;
+
+    }
+ 
+  }

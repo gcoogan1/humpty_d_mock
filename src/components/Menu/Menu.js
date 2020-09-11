@@ -8,6 +8,9 @@ import Star from '../../assets/star.png';
 
 
 function Menu() {
+
+  
+
     return (
         <div className="menu_wrapper" name="menu" > 
             <div className="menu_header">
@@ -35,10 +38,10 @@ function Menu() {
             <Salads/>
             <div className="speciality_info">
                 <div className='speciality_box'>
-                <div className="vegan_info">
+                <div className="vegan_info higher">
                  <p><div className="vegan align">v</div>= Vegetarian</p>
                 </div>
-                <div className="vegan_info">
+                <div className="vegan_info lower">
                  <p><img src={Star} alt=""  className="align" />=  Special (Changed every month / season)</p>
                 </div>
                 </div>

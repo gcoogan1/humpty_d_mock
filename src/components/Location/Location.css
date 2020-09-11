@@ -34,6 +34,7 @@
   display: flex;
   grid-gap: 140px;
   padding: 100px;
+  flex-wrap: wrap;
 }
 
 .location_card {
@@ -43,6 +44,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
 .location_card_center {
@@ -58,14 +60,13 @@
 .location_card_info {
   width: 281px;
   height: 187px;
-
   display: flex;
   flex-direction: column;
   grid-gap: 20px;
 }
+
 .location_card_info_display {
   width: 281px;
-
   font-size: 16px;
   display: flex;
 }
@@ -73,7 +74,6 @@
 .left {
   width: 90px;
   text-align: left;
-
   opacity: 0.5;
 }
 
@@ -206,46 +206,132 @@
   display: flex;
   justify-content: center;
   grid-gap: 100px;
+  flex-wrap: wrap;
 }
 
 .togo_card {
   width: 400px;
   height: 143px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   grid-gap: 20px;
 }
 
-.togo_card h2{
-    color: #B22222;
-text-transform: uppercase;
-opacity: 1;
+.togo_card h2 {
+  color: #b22222;
+  text-transform: uppercase;
+  opacity: 1;
 }
-.togo_btn_wrapper{
-    padding-top: 10px;
-    display: flex;
-    grid-gap: 10px;
+.togo_btn_wrapper {
+  padding-top: 10px;
+  display: flex;
+  grid-gap: 10px;
 }
-.togo_btn{
-    padding: 16px 30px;
-    font-size: 16px;
-    color: #B22222;
-    border-radius: 5px;
-    border: 1px solid #B22222;
-    background:  transparent;
+.togo_btn {
+  padding: 16px 30px;
+  font-size: 16px;
+  color: #b22222;
+  border-radius: 5px;
+  border: 1px solid #b22222;
+  background: transparent;
 }
 
-.insta{
-    background-image: url(../../assets/Icon_Instagram.svg); /* 16px x 16px */
-    background-color: transparent; /* make the button transparent */
-    background-repeat: no-repeat;  /* make the background image appear only once */
-    background-position: 22px 15px;
-    padding: 16px 30px 16px 50px;
-    font-size: 16px;
-    color: #B22222;
-    border-radius: 5px;
-    border: 1px solid #B22222;
-    background-color:  transparent;
+.insta {
+  background-image: url(../../assets/Icon_Instagram.svg); /* 16px x 16px */
+  background-color: transparent; /* make the button transparent */
+  background-repeat: no-repeat; /* make the background image appear only once */
+  background-position: 22px 15px;
+  padding: 16px 30px 16px 50px;
+  font-size: 16px;
+  color: #b22222;
+  border-radius: 5px;
+  border: 1px solid #b22222;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .center_text_box {
+    width: 609px;
+    align-content: center;
+  }
+
+  .farmer_card {
+    width: 750px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 787px) {
+  .center_text_box {
+    width: 450px;
+
+    height: 400px;
+
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .farmer_card {
+    width: 450px;
+    height: 471px;
+  }
+
+  .center_text {
+    grid-gap: 10px;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+  }
+
+  .center_divide {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .center_divide hr {
+    width: 60px;
+    height: 1px;
+  }
+
+  .bottom {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .location_cards {
+    grid-gap: 40px;
+    padding: 80px 10px;
+  }
+
+  .location_card {
+    width: 310px;
+  }
+  .location_card_center {
+    width: 261px;
+  }
+
+  .location_card_info {
+    width: 261px;
+
+    grid-gap: 10px;
+  }
+  .location_card_info_display {
+    width: 261px;
+  }
+
+  .farmer_card {
+    width: 310px;
+  }
+
+  .center_text_box {
+    width: 280px;
+    height: 350px;
+  }
+  .farmer_title {
+    width: 200px;
+  }
 }

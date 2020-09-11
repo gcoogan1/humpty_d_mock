@@ -4,6 +4,7 @@
   background-color: white;
   text-align: center;
   position: relative;
+  cursor: pointer;
 }
 
 .meal_card p {

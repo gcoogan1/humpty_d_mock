@@ -51,7 +51,7 @@ function About() {
             future and sharing our food with even more people.
           </p>
         </div>
-        <div className="about_block text">
+        <div className="about_block text two">
           <p>
             After a night out at the bar, our owners put together a late-night
             snack of rotisserie chicken fried in won’t ton wrappers — and it was

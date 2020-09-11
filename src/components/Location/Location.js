@@ -1,5 +1,6 @@
 import React from "react";
 import Icon from "../../assets/Icon.png";
+import Dash from '../../assets/DoorDash_Logo.png';
 import "./Location.css";
 
 function Locations() {
@@ -101,7 +102,7 @@ function Locations() {
                 Order online with <br></br> GRUBHUB
               </button>
               <button className="order">
-                Order online with <br></br> DOORDASH
+                Order online with <br></br><img src={Dash} alt="DOORDASH" />
               </button>
             </div>
           </div>
@@ -113,7 +114,7 @@ function Locations() {
             <div className="center_text_box">
                 <div className="center_text"><p><span className="bold">West Chester Grower’s Market</span></p><p>North Church and West Chestnut Streets Downtown West Chester, PA</p><p>Every Saturday:<span className="bold"> 9am - 1pm</span></p></div>
                 <div className="center_divide"><hr></hr></div>
-                <div className="center_text"><p><span className="bold">West Chester Grower’s Market</span></p><p>North Church and West Chestnut Streets Downtown West Chester, PA</p><p>Every Saturday:<span className="bold"> 9am - 1pm</span></p></div>
+                <div className="center_text bottom"><p><span className="bold">West Chester Grower’s Market</span></p><p>North Church and West Chestnut Streets Downtown West Chester, PA</p><p>Every Saturday:<span className="bold"> 9am - 1pm</span></p></div>
             </div>
         </div>
         <div className="farmer_card_center">

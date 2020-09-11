@@ -66,7 +66,9 @@ function Landing() {
               </Link>
             </ul>
           </div>
-          <Link
+        
+        </div>
+        <Link
             activeClass="active"
             to="menu"
             spy={true}
@@ -78,7 +80,6 @@ function Landing() {
               <img src={Arrow} alt="v" />
             </button>
           </Link>
-        </div>
       </div>
       <Menu />
       <Location />

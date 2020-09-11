@@ -5,6 +5,10 @@ import "./Meal.css";
 const Meal = ({ image, info, meal, vegan, star }) => {
   const [isShown, setIsShown] = useState(false);
 
+
+
+  
+
   let content;
   if (vegan === "v") {
     content = (
@@ -24,6 +28,7 @@ const Meal = ({ image, info, meal, vegan, star }) => {
         <img
           src={image}
           alt=""
+          onClick={() => setIsShown(true)}
           onMouseEnter={() => setIsShown(true)}
           onMouseLeave={() => setIsShown(false)}
         />
