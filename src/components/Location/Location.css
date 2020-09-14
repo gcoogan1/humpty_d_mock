@@ -264,10 +264,8 @@
 @media (min-width: 320px) and (max-width: 787px) {
   .center_text_box {
     width: 450px;
-
     height: 400px;
-
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 40% 20% 40%;
   }
 
   .farmer_card {
@@ -281,6 +279,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     text-align: center;
+    justify-content: center;
   }
 
   .center_divide {

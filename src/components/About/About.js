@@ -5,7 +5,7 @@ import Zagat from "../../assets/Zagat.png";
 import Philly from '../../assets/Philly.png';
 import Fb from '../../assets/facebook.svg';
 import Yelp from '../../assets/yelp.svg';
-import Google from '../../assets/brands-and-logotypes.svg';
+import Google from '../../assets/google-icon.svg';
 import Groupon from '../../assets/groupon.svg';
 import FourSquare from '../../assets/foursquare.svg';
 import "./About.css";

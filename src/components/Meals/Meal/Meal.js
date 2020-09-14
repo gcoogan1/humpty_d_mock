@@ -23,7 +23,7 @@ const Meal = ({ image, info, meal, vegan, star }) => {
      
       <div className="meal_card">
    
-      <span className="tooltiptext">{info}</span>
+      <span className="arrow_box">{info}</span>
     
         <img
           src={image}

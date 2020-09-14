@@ -65,8 +65,14 @@ select {
   border-radius: 5px;
   opacity: 1;
   outline: none;
+  -webkit-appearance: none;
+  background-image: url('../../assets/form-arrow.png');
+  background-repeat: no-repeat;
+  background-position-x: 300px;
+  background-position-y: center
  ;
 }
+
 
 textarea {
   width: 100%;

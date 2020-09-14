@@ -112,16 +112,15 @@
   align-self: center;
 }
 
-.social_media_wrapper{
-    width: 100%;
-    padding: 100px 0px;
-    display: flex;
-    flex-direction: row;
-    grid-gap: 100px;
-    justify-content: center;
-    flex-wrap: wrap
+.social_media_wrapper {
+  width: 100%;
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-
 
 .social_media_rating {
   width: 68px;
@@ -142,89 +141,87 @@
   margin-bottom: 10px;
 }
 
-.social_rating{
-    color: #B22222;
-text-transform: uppercase;
-opacity: 1;
-font-size: 20px;
+.social_rating {
+  color: #b22222;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 20px;
 }
 
-.social_name{
-    color: #231F20;
-opacity: 0.5;
-font-size: 16px;
+.social_name {
+  color: #231f20;
+  opacity: 0.5;
+  font-size: 16px;
 }
 
-.fb{
-    background-color: #1976d2;
+.fb {
+  background-color: #1976d2;
 }
 
-.yelp{
-    background-color: #F44336;
+.yelp {
+  background-color: #f44336;
 }
 
-.google{
-    background: -webkit-linear-gradient( top left, #FBBD00, #CF2D48 ,#3C79E6, #31AA52);
+.google {
+  background: -webkit-linear-gradient(
+    top left,
+    #fbbd00,
+    #cf2d48,
+    #3c79e6,
+    #31aa52
+  );
 }
 
-.groupon{
-    background-color: #8BC34A;
+.groupon {
+  background-color: #8bc34a;
 }
 
-.foursq{
-    background-color: #EC407A;
+.foursq {
+  background-color: #ec407a;
 }
-
-
 
 @media (min-width: 320px) and (max-width: 1024px) {
-  
-  .about_center { 
+  .about_center {
     grid-template-columns: none;
     grid-template-rows: 300px 380px 320px 300px;
     grid-gap: 50px;
   }
 
-  .about_block text{
+  .about_block text {
     grid-row-start: 1;
   }
-  .imgOne{
+  .imgOne {
     grid-row-start: 2;
   }
-  .two{
+  .two {
     grid-row-start: 3;
   }
-  .imgTwo{
+  .imgTwo {
     grid-row-start: 4;
   }
-  .text{
+  .text {
     grid-gap: 5px;
   }
-  .social_media_wrapper{
+  .social_media_wrapper {
     grid-gap: 50px;
-   
+  }
 }
-}
-
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .about_center { 
- 
+  .about_center {
     grid-template-rows: 400px 380px 400px 380px;
-
   }
-  
+
   .about_block {
     width: 300px;
   }
-  .stone{
+  .stone {
     width: 300px;
   }
-  .zagat{
-    width: 300px
-  }
-  .philly{
+  .zagat {
     width: 300px;
   }
-  
+  .philly {
+    width: 300px;
+  }
 }

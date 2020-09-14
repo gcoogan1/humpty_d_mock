@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "../../assets/Icon.png";
-import Dash from '../../assets/DoorDash_Logo.png';
+import Dash from "../../assets/DoorDash_Logo.svg";
 import "./Location.css";
 
 function Locations() {
@@ -50,12 +50,25 @@ function Locations() {
               </div>
             </div>
             <div className="location_card_btn">
-              <button className="order">
-                Order online with <br></br> GRUBHUB
-              </button>
-              <button className="order">
-                Order online with <br></br> DOORDASH
-              </button>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.grubhub.com/restaurant/humptys-dumplings-277-n-keswick-ave-glenside/1739615"
+              >
+                <button className="order">
+                  Order online with <br></br> GRUBHUB
+                </button>
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.doordash.com/store/humpty-s-dumplings-glenside-158774/en-US/?utm_medium=website&utm_source=partner-link"
+              >
+                {" "}
+                <button className="order">
+                  Order online with <br></br> <img src={Dash} alt="DOORDASH" />
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -98,11 +111,18 @@ function Locations() {
               </div>
             </div>
             <div className="location_card_btn">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.grubhub.com/restaurant/humptys-dumplings-102-w-girard-ave-philadelphia/1486576"
+              >
+                <button className="order">
+                  Order online with <br></br> GRUBHUB
+                </button>
+              </a>
               <button className="order">
-                Order online with <br></br> GRUBHUB
-              </button>
-              <button className="order">
-                Order online with <br></br><img src={Dash} alt="DOORDASH" />
+                Order online with <br></br>
+                <img src={Dash} alt="DOORDASH" />
               </button>
             </div>
           </div>
@@ -110,35 +130,70 @@ function Locations() {
       </div>
       <div className="farmer_card_wrapper">
         <div className="farmer_card">
-        <div className="center">
+          <div className="center">
             <div className="center_text_box">
-                <div className="center_text"><p><span className="bold">West Chester Grower’s Market</span></p><p>North Church and West Chestnut Streets Downtown West Chester, PA</p><p>Every Saturday:<span className="bold"> 9am - 1pm</span></p></div>
-                <div className="center_divide"><hr></hr></div>
-                <div className="center_text bottom"><p><span className="bold">West Chester Grower’s Market</span></p><p>North Church and West Chestnut Streets Downtown West Chester, PA</p><p>Every Saturday:<span className="bold"> 9am - 1pm</span></p></div>
+              <div className="center_text">
+                <p>
+                  <span className="bold">West Chester Grower’s Market</span>
+                </p>
+                <p>
+                  North Church and West Chestnut Streets Downtown West Chester,
+                  PA
+                </p>
+                <p>
+                  Every Saturday:<span className="bold"> 9am - 1pm</span>
+                </p>
+              </div>
+              <div className="center_divide">
+                <hr></hr>
+              </div>
+              <div className="center_text bottom">
+                <p>
+                  <span className="bold">West Chester Grower’s Market</span>
+                </p>
+                <p>
+                  North Church and West Chestnut Streets Downtown West Chester,
+                  PA
+                </p>
+                <p>
+                  Every Saturday:<span className="bold"> 9am - 1pm</span>
+                </p>
+              </div>
             </div>
-        </div>
-        <div className="farmer_card_center">
-        <div className="farmer_title"><h3>Farmers Market</h3></div>
-            <div className="pre_order_wrapper"><button className="pre_order_btn">Pre-Order</button></div>
-        </div>
+          </div>
+          <div className="farmer_card_center">
+            <div className="farmer_title">
+              <h3>Farmers Market</h3>
+            </div>
+            <div className="pre_order_wrapper">
+              <button className="pre_order_btn">Pre-Order</button>
+            </div>
+          </div>
         </div>
       </div>
       <div className="togo_cards">
-            <div className="togo_card">
-                <h2>Food Truck</h2>
-                <p>Get Information and Quotes</p>
-                <div className="togo_btn_wrapper">
-                    <button className="togo_btn">Send Message</button>
-                    <button className="insta">Follow</button>
-                </div>
-            </div>
-            <div className="togo_card">
-            <h2>Catering</h2>
-                <p>Build Your Own Packages for 6 to 200 People</p>
-                <div className="togo_btn_wrapper">
-                    <button className="togo_btn">Get In Touch</button>
-                </div>
-            </div>
+        <div className="togo_card">
+          <h2>Food Truck</h2>
+          <p>Get Information and Quotes</p>
+          <div className="togo_btn_wrapper">
+            <button className="togo_btn">Send Message</button>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.instagram.com/humptysmobile/?hl=en"
+            >
+              {" "}
+              <button className="insta">Follow</button>{" "}
+            </a>
+          </div>
+        </div>
+        <div className="togo_card">
+          <h2>Catering</h2>
+          <p>Build Your Own Packages for 6 to 200 People</p>
+          <div className="togo_btn_wrapper">
+            <button className="togo_btn">Get In Touch</button>
+          </div>
+        </div>
       </div>
     </div>
   );

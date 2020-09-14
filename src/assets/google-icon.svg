@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="Icon" transform="translate(-590 -6524)">
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="40" height="40" rx="5" transform="translate(590 6524)" fill="#1976d2"/>
+    <path id="Rectangle_8" data-name="Rectangle 8" d="M0,0H15a5,5,0,0,1,5,5V20a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(610 6524)" fill="#cf2d48"/>
+    <path id="Rectangle_9" data-name="Rectangle 9" d="M5,0H20a0,0,0,0,1,0,0V20a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" transform="translate(590 6524)" fill="#fbbd00"/>
+    <path id="Rectangle_10" data-name="Rectangle 10" d="M0,0H20a0,0,0,0,1,0,0V20a0,0,0,0,1,0,0H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(590 6544)" fill="#31aa52"/>
+    <path id="Rectangle_11" data-name="Rectangle 11" d="M0,0H20a0,0,0,0,1,0,0V15a5,5,0,0,1-5,5H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(610 6544)" fill="#3c79e6"/>
+    <g id="brands-and-logotypes" transform="translate(602 6536)">
+      <path id="Path_1" data-name="Path 1" d="M3.75,105.083a4.224,4.224,0,0,1,.6-2.171v-2.7h-2.7a8,8,0,0,0,0,9.737h2.7v-2.7A4.224,4.224,0,0,1,3.75,105.083Z" transform="translate(0 -97.083)" fill="#fff"/>
+      <path id="Path_2" data-name="Path 2" d="M197.875,373.556,196,375.431l1.875,1.875a7.939,7.939,0,0,0,4.868-1.651v-2.694h-2.694A4.249,4.249,0,0,1,197.875,373.556Z" transform="translate(-189.875 -361.306)" fill="#fff"/>
+      <path id="Path_3" data-name="Path 3" d="M55.52,325.477l-2.7,2.7a8.126,8.126,0,0,0,.692.789,7.948,7.948,0,0,0,5.657,2.343v-3.75A4.252,4.252,0,0,1,55.52,325.477Z" transform="translate(-51.172 -315.306)" fill="#fff"/>
+      <path id="Path_4" data-name="Path 4" d="M264,199.158a8.069,8.069,0,0,0-.131-1.449l-.07-.384H256v3.75h3.8a4.231,4.231,0,0,1-1.621,1.739l2.694,2.694a8.126,8.126,0,0,0,.789-.692A7.948,7.948,0,0,0,264,199.158Z" transform="translate(-248 -191.158)" fill="#fff"/>
+      <path id="Path_5" data-name="Path 5" d="M200.88,4.995l.331.331,2.652-2.652-.331-.331A7.948,7.948,0,0,0,197.875,0L196,1.875l1.875,1.875A4.222,4.222,0,0,1,200.88,4.995Z" transform="translate(-189.875)" fill="#fff"/>
+      <path id="Path_6" data-name="Path 6" d="M59.171,3.75V0a7.948,7.948,0,0,0-5.657,2.343,8.12,8.12,0,0,0-.692.789l2.7,2.7A4.252,4.252,0,0,1,59.171,3.75Z" transform="translate(-51.171 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

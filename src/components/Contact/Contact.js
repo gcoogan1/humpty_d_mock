@@ -23,7 +23,7 @@ function Contact() {
         />
       <p>Subject</p>
         <select
-          
+          className="classic"
         />
       <p>Message</p>
         <textarea />
