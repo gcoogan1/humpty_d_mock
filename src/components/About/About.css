@@ -114,7 +114,7 @@
 
 .social_media_wrapper {
   width: 100%;
-  padding: 100px 50px;
+  padding: 50px 50px 100px 50px;
   display: flex;
   flex-direction: row;
   grid-gap: 100px;
