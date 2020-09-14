@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import Hero from "../../assets/Hero.png";
-import Arrow from "../../assets/down-arrow.png";
+import Arrow from "../../assets/Icon_Scroll.svg";
 import "./Landing.css";
 import Menu from "../Menu/Menu";
 import Contact from "../Contact/Contact";

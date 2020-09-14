@@ -36,10 +36,7 @@
 
 
 .arrow{
-    border: 5px solid #B22222;
-    width: 60px;
-     height: 60px;
-     align-self: center;
+    border: none;
     margin-top: 200px;
     border-radius: 100%;
     background: transparent;
@@ -49,6 +46,7 @@
     outline: none;
     box-shadow: none;
   }
+
 
   @media (min-width: 481px) and (max-width: 767px) {
   

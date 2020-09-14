@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Icon_Scroll" transform="translate(-935 -781)">
+    <g id="Circle" transform="translate(935 781)" fill="none" stroke="#b22222" stroke-width="5">
+      <circle cx="30" cy="30" r="30" stroke="none"/>
+      <circle cx="30" cy="30" r="27.5" fill="none"/>
+    </g>
+    <path id="Path" d="M10.459,15.617l9.352-9.646a.686.686,0,0,0,0-.946L19.8,5.013a.629.629,0,0,0-.458-.2H14.8a.627.627,0,0,0-.458.2L10,9.492,5.66,5.013A.641.641,0,0,0,5.2,4.818H.663a.629.629,0,0,0-.46.2L.19,5.025a.684.684,0,0,0,0,.946l9.352,9.646A.631.631,0,0,0,10.459,15.617Z" transform="translate(955 802.182)" fill="#b22222"/>
+  </g>
+</svg>

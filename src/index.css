@@ -1,9 +1,11 @@
-*{
+* {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
 
- button{
+button {
   cursor: pointer;
+  outline: none;
 }
