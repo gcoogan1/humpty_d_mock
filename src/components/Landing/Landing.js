@@ -25,7 +25,7 @@ const MobileMenu = styled.div`
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   align-items: center;
   justify-content: space-between;
   padding: 0px 20px;
