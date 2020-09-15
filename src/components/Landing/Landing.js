@@ -28,7 +28,10 @@ const MobileMenu = styled.div`
   z-index: 2;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 20px;
+  padding: 0px 100px;
+  @media (min-width: 320px) and (max-width: 480px) {
+    padding: 0px 20px;
+}
 `;
 
 function Landing() {
@@ -70,7 +73,7 @@ function Landing() {
       <MobileMenu opened id="show" className="mobile_nav">
         <img src={SmallLogo} alt="humpty" />
         <Hamburger open={mobileMenu} clicked={() => setMobileMenu(!mobileMenu)}/>
-        <MobileNav open={mobileMenu}> 
+        <MobileNav open={mobileMenu} > 
         <ul className="mobile_list_wrapper">
             <Link
                 activeClass="active"
@@ -119,6 +122,53 @@ function Landing() {
                 
             </ul>
         </MobileNav>
+        <ul className="list_wrapper">
+            <Link
+                activeClass="active"
+                to="menu"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                onClick={() => setMobileMenu(false)}
+              >
+                <li>Menu</li>
+              </Link>
+            <Link
+                activeClass="active"
+                to="location"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                onClick={() => setMobileMenu(false)}
+              >
+                <li>Locations</li>
+              </Link>
+            <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                onClick={() => setMobileMenu(false)}
+              >
+                <li>Our Story</li>
+              </Link>
+            <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+                onClick={() => setMobileMenu(false)}
+              >
+                <li>Contact Us</li>
+              </Link>
+                
+            </ul>
       </MobileMenu>
     );
   } else {
