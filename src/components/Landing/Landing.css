@@ -1,65 +1,95 @@
-.header_wrapper{
-    width: 100%;
-    min-height: 100vh;
-    text-align: center;
-    background-color:  #FAFAFA;
+.header_wrapper {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #fafafa;
 }
 
-.header{
-    display: flex;
-    flex-direction: column;
-    padding-top: 200px;
+.header {
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
 }
 
-
-.navbar{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    grid-gap: 20px;
-    padding-top: 40px;
-    padding-inline-start: 0px;
-    flex-wrap: wrap;
+.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  grid-gap: 20px;
+  padding-top: 40px;
+  padding-inline-start: 0px;
+  flex-wrap: wrap;
 }
 
-.navbar li{
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
+.navbar li {
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.navbar span{
-    opacity: .2;
-    font-size: 12px
+.navbar li::after {
+  display: block;
+  content: "";
+  margin-top: 5px;
+  border-bottom: solid 3px black;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
 }
 
+.navbar li:hover:after {
+  transform: scaleX(1);
+}
 
+.navbar span {
+  opacity: 0.2;
+  font-size: 12px;
+}
 
-.arrow{
-    border: none;
-    margin-top: 200px;
-    border-radius: 100%;
-    background: transparent;
+.arrow {
+  border: none;
+  margin-top: 200px;
+  border-radius: 100%;
+  background: transparent;
+  opacity: 0.5;
+}
+
+.arrow:hover {
+  opacity: 1;
 }
 
 .arrow:focus {
-    outline: none;
-    box-shadow: none;
-  }
-
-
-  @media (min-width: 481px) and (max-width: 767px) {
-  
-.top img{
-    width: 480px;
+  outline: none;
+  box-shadow: none;
 }
-    
-  }
-  @media (min-width: 320px) and (max-width: 480px) {
-  
-    .top img{
-        width: 300px;
 
-    }
- 
+.mobile_nav {
+  visibility: hidden;
+}
+
+.mobile_nav img{
+    width: 60px;
+    height: 60px;
+}
+
+.mobile_list_wrapper{
+    list-style: none;
+    line-height: 3;
+    text-align: center;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .top img {
+    width: 480px;
   }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .top img {
+    width: 300px;
+  }
+  .arrow {
+    margin-top: 180px;
+  }
+  .mobile_nav {
+    visibility: visible;
+  }
+}

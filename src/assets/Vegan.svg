@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Vegetarian" transform="translate(-2 -2)">
+    <g id="Circle" transform="translate(2 2)" fill="none" stroke="#5fb900" stroke-width="2">
+      <circle cx="12" cy="12" r="12" stroke="none"/>
+      <circle cx="12" cy="12" r="11" fill="none"/>
+    </g>
+    <path id="V" d="M24.46,32.448l5.236-12H27.016l-2.457,6.466-2.623-6.466H19.224Z" transform="translate(-10.224 -11.448)" fill="#5fb900"/>
+  </g>
+</svg>

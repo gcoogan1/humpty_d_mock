@@ -5,7 +5,7 @@ import bowls from '../../MealsData/bowlData';
 
 function Dumplings() {
     const [bowlMeal, setBowlMeal] = useState({ bowls });
-    console.log(bowls.map(item => (item.meal)))
+   // console.log(bowls.map(item => (item.meal)))
     return (
         <div className="dumplings_display">
             {bowlMeal.bowls.map(item => (

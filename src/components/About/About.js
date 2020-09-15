@@ -80,31 +80,31 @@ function About() {
         </div>
       </div>
         <div className="social_media_wrapper">
-            <div className="social_media_rating">
+           <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/HumptysDumplings/"> <div className="social_media_rating">
                <div className="social_icon fb"><img src={Fb} alt="facebook" /></div> 
                 <p className="social_rating">4.9 / 5</p>
                 <p className="social_name">Facebook</p>
-            </div>
-            <div className="social_media_rating">
+            </div></a>
+           <a target="_blank" rel="noopener noreferrer" href="https://www.yelp.com/biz/humptys-dumplings-glenside-5"> <div className="social_media_rating">
                <div className="social_icon yelp"><img src={Yelp} alt="yelp" /></div> 
                 <p className="social_rating">4 / 5</p>
                 <p className="social_name">Yelp</p>
-            </div>
-            <div className="social_media_rating">
+            </div></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.google.com/search?sxsrf=ALeKk03EejxeWBUipNPhBGbwxdAMTU3bQA%3A1600137353924&ei=iShgX6D9N7WJytMP5uu3-A8&q=humpty+dumplings+reviews&oq=humpty+dumplings+reviews&gs_lcp=CgZwc3ktYWIQAzIFCAAQzQIyBQgAEM0CMgUIABDNAjoECCMQJ1D_Jlj_JmCTKWgAcAB4AIABSYgB1wGSAQEzmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=psy-ab&ved=0ahUKEwjg5cmUkOrrAhW1hHIEHeb1Df8Q4dUDCA0&uact=5"><div className="social_media_rating">
                <div className="social_icon google"><img src={Google} alt="google" /></div> 
                 <p className="social_rating">4.9 / 5</p>
-                <p className="social_name">Facebook</p>
-            </div>
-            <div className="social_media_rating">
+                <p className="social_name">Google</p>
+            </div></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.groupon.com/biz/willow-grove-pa/humptys-dumplings">  <div className="social_media_rating">
                <div className="social_icon groupon"><img src={Groupon} alt="groupon" /></div> 
                 <p className="social_rating">4.6 / 5</p>
-                <p className="social_name">Facebook</p>
-            </div>
-            <div className="social_media_rating">
+                <p className="social_name">Groupon</p>
+            </div></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://foursquare.com/v/humptys-dumplings/55946d0b498eb09835c86c0f"><div className="social_media_rating">
                <div className="social_icon foursq"><img src={FourSquare} alt="foursquare" /></div> 
                 <p className="social_rating">4.9 / 5</p>
-                <p className="social_name">Facebook</p>
-            </div>
+                <p className="social_name">Foursquare</p>
+            </div></a> 
         </div>
     </div>
   );

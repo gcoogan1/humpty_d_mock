@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Vegan from '../../../assets/Vegan.svg';
 import "./Meal.css";
 
 const Meal = ({ image, info, meal, vegan, star }) => {
@@ -9,14 +9,9 @@ const Meal = ({ image, info, meal, vegan, star }) => {
 
   
 
-  let content;
-  if (vegan === "v") {
-    content = (
-      <div className="vegan">
-        <p>{vegan}</p>
-      </div>
-    );
-  }
+
+
+ 
 
   return (
     <>
@@ -28,15 +23,14 @@ const Meal = ({ image, info, meal, vegan, star }) => {
         <img
           src={image}
           alt=""
-          onClick={() => setIsShown(true)}
           onMouseEnter={() => setIsShown(true)}
           onMouseLeave={() => setIsShown(false)}
         />
         <p>{meal}</p>
 
         <div className="meal_card_bottom">
-          {content}
-          <img src={star} alt="" />
+          <img src={vegan} alt="" />
+           <img src={star} alt="" />
         </div>
       </div>
     </>

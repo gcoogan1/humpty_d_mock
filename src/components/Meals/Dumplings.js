@@ -5,7 +5,7 @@ import dumplings from '../../MealsData/dumplingData';
 
 function Dumplings() {
     const [dumplingMeal, setDumplingsMeal] = useState({ dumplings });
-    console.log(dumplings.map(item => (item.meal)))
+   // console.log(dumplings.map(item => (item.meal)))
     return (
         <div className="dumplings_display">
             {dumplingMeal.dumplings.map(item => (

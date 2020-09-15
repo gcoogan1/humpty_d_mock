@@ -12,23 +12,21 @@ function Contact() {
         </div>
       </div>
       <div className="form_wrapper">
-      <form>
-      <p>Name:</p>
-        <input
-          type="text"
-        />
-      <p>Email</p>
-        <input
-          type="text"
-        />
-      <p>Subject</p>
-        <select
-          className="classic"
-        />
-      <p>Message</p>
-        <textarea />
-        <button className="send">Send</button>
-      </form>
+        <form>
+          <p>Name</p>
+          <input type="text" />
+          <p>Email</p>
+          <input type="text" />
+          <p>Subject</p>
+          <select className="classic">
+            <option value="0">General Info</option>
+            <option value="1">Catering</option>
+            <option value="2">Food Truck</option>
+          </select>
+          <p>Message</p>
+          <textarea />
+          <button className="send">Send</button>
+        </form>
       </div>
     </div>
   );

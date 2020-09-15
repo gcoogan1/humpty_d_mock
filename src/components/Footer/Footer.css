@@ -35,7 +35,35 @@
   border: 1px solid #ffffff;
   opacity: 1;
   border-radius: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.find_us_link:hover{
+  background-color: white;
+  border: 1px solid  #231F20;
+}
+
+.facebook{
+  background-image: url('../../assets/facebook.svg');
+}
+
+.facebook:hover{
+  background-image: url('../../assets/facebook_blk.png');
+}
+
+.instagram{
+  background-image: url('../../assets/insta2.png');
+}
+
+.instagram:hover{
+  background-image: url('../../assets/insta_blk.png');
+}
+
+.twitter{
+  background-image: url('../../assets/twitter.png');
+}
+
+.twitter:hover{
+  background-image: url('../../assets/twitter_blk.png');
 }

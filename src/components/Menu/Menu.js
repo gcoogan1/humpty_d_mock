@@ -1,5 +1,6 @@
 import React from 'react';
 import './Menu.css';
+import Vegan from '../../assets/Vegan.svg';
 import Icon from '../../assets/Icon.png';
 import Dumplings from '../Meals/Dumplings';
 import Bowl from '../Meals/Bowl';
@@ -13,6 +14,7 @@ function Menu() {
 
     return (
         <div className="menu_wrapper" name="menu" > 
+        
             <div className="menu_header">
             <img className="chef" src={Icon} alt="icon" />
             <div className="menu_title_wrapper">
@@ -39,7 +41,7 @@ function Menu() {
             <div className="speciality_info">
                 <div className='speciality_box'>
                 <div className="vegan_info higher">
-                 <p><div className="vegan align">v</div>= Vegetarian</p>
+                 <p><img src={Vegan} alt="v" className="align" />= Vegetarian</p>
                 </div>
                 <div className="vegan_info lower">
                  <p><img src={Star} alt=""  className="align" />=  Special (Changed every month / season)</p>

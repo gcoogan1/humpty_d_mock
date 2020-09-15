@@ -20,23 +20,8 @@
   padding-top: 10px;
 }
 
-.vegan {
-  color: #5fb900;
-  width: 24px;
-  height: 24px;
-  border-radius: 100px;
-  border: 2px solid #5fb900;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.vegan p {
-  padding: 0;
-  align-self: center;
-  font-size: 24px;
-  font-weight: 100;
-}
+
 
 
 .arrow_box {

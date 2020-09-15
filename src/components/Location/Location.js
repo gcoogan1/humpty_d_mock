@@ -23,7 +23,7 @@ function Locations() {
                 </div>
                 <div className="right">
                   {" "}
-                  <p>277 North Keswick Avenue Glenside PA 19038</p>
+                  <p>277 North Keswick Avenue, Glenside PA 19038</p>
                 </div>
               </div>
               <div className="location_card_info_display">
@@ -85,7 +85,7 @@ function Locations() {
                   <p>
                     {" "}
                     <span className="bold">Attached to Saint Lazarus Bar </span>
-                    <br></br> 102 West Girard Avenue Philadelphia PA 19123
+                    <br></br> 102 West Girard Avenue, Philadelphia PA 19123
                   </p>
                 </div>
               </div>

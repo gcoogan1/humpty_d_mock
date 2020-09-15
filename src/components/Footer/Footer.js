@@ -1,8 +1,5 @@
 import React from "react";
 import Logo from "../../assets/Logo.png";
-import Fb from "../../assets/facebook.svg";
-import InstaTwo from "../../assets/insta2.png";
-import Twitter from "../../assets/twitter.png";
 import "./Footer.css";
 
 function Footer() {
@@ -19,8 +16,8 @@ function Footer() {
             rel="noopener noreferrer"
             href="https://www.facebook.com/HumptysDumplings/"
           >
-            <div className="find_us_link">
-              <img src={Fb} alt="fb" />
+            <div className="find_us_link facebook">
+             
             </div>
           </a>
           <a
@@ -29,12 +26,8 @@ function Footer() {
             href="https://www.instagram.com/humptysdumplings/?hl=en"
           >
             {" "}
-            <div className="find_us_link">
-              <img
-                src={InstaTwo}
-                alt="in"
-                style={{ height: "16px", width: "16px" }}
-              />
+            <div className="find_us_link instagram">
+             
             </div>{" "}
           </a>
           <a
@@ -42,8 +35,8 @@ function Footer() {
             rel="noopener noreferrer"
             href="https://twitter.com/humptysdumplins?lang=en"
           >
-            <div className="find_us_link">
-              <img src={Twitter} alt="tw" />
+            <div className="find_us_link twitter">
+           
             </div>
           </a>
         </div>

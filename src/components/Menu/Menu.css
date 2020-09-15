@@ -91,6 +91,7 @@
 
 .vegan_info {
   margin-top: 10px;
+  margin-left: 5%;
 }
 
 .vegan_info p {
@@ -118,10 +119,11 @@
 @media (min-width: 320px) and (max-width: 768px) {
   
   .speciality_box {
-    width: 310px;
+    width: 340px;
     font-size: 12px;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: none;
+    padding: 40px 20px;
   }
   
   .vegan_info {
