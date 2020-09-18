@@ -109,6 +109,9 @@
   .top img {
     width: 340px;
   }
+}
+
+@media (min-width: 320px) and (max-width: 660px) {
   .navbar{
     padding: 30px 50px;
   }

@@ -12,7 +12,7 @@ const StyledHamb = styled.div`
   transition: 0.5s ease-in-out;
   display: none;
   cursor: pointer;
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 660px) {
   display: block; 
 }
   & span {

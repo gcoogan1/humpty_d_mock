@@ -17,10 +17,10 @@ const MobileMenu = styled.div`
   visibility: ${props => (props.opened ? "visibile" : "hidden")};
   width: 100%;
   background-color: white;
-  height: 70px;
-  -webkit-box-shadow: 0px 3px 3px #a0a0a0;
-  -moz-box-shadow: 0px 3px 3px #a0a0a0;
-  box-shadow: 0px 3px 3px #a0a0a0;
+  height: 80px;
+  -webkit-box-shadow: 0px 3px 3px rgba(160,160,160, 0.2);
+  -moz-box-shadow: 0px 3px 3px rgba(160,160,160, 0.2);
+  box-shadow: 0px 3px 3px rgba(160,160,160, 0.2);
   display: flex;
   position: fixed;
   top: 0;
