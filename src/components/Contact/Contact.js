@@ -12,7 +12,7 @@ function Contact() {
         </div>
       </div>
       <div className="form_wrapper">
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" netlify>
           <p>Name</p>
           <input type="text" name="name"  />
           <p>Email</p>
