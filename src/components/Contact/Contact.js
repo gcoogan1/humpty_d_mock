@@ -4,7 +4,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div className="contact_wrapper" name="contact">
+    <div className="contact_wrapper" name="info">
       <div className="contact_header">
         <img className="chef" src={Icon} alt="icon" />
         <div className="contact_title_wrapper">
@@ -12,7 +12,7 @@ function Contact() {
         </div>
       </div>
       <div className="form_wrapper">
-        <form name="contact" action="/contact" method="POST">
+        <form name="contact" method="POST">
         <input type="hidden" name="form-name" value="contact" />
           <p>Name</p>
           <input required type="text" name="name"  />

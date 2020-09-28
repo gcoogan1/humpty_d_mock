@@ -110,7 +110,7 @@ function Landing() {
               </Link>
             <Link
                 activeClass="active"
-                to="contact"
+                to="info"
                 spy={true}
                 smooth={true}
                 offset={0}
@@ -220,7 +220,7 @@ function Landing() {
               <span>|</span>
               <Link
                 activeClass="active"
-                to="contact"
+                to="info"
                 spy={true}
                 smooth={true}
                 offset={0}
