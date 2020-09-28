@@ -1,15 +1,18 @@
 import Image from "../assets/Image.png";
 import Star from "../assets/star.png";
+import Vegan from '../assets/Vegan.svg';
+
+
 
 const salad = [
   {
     id: 1,
-    meal: "Watermelon & Arugula",
+    meal: "Asian Pear & Walnut Salad",
     image: Image,
-    vegan: "",
+    vegan: Vegan,
     star: Star,
     info:
-      "Chicken breast, smoked gouda, red onions, scallions, honey chipotle bbq sauce. Think sweet and smokey."
+      "Mixed Greens, shredded carrots and pears, and crushed walnuts w/ a pear vinaigrette."
   }
 ];
 

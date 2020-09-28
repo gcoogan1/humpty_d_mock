@@ -209,6 +209,10 @@
   opacity: 1;
 }
 
+.limited{
+  font-size: 12px;
+}
+
 .togo_cards {
   width: 100%;
   padding: 100px 0px;

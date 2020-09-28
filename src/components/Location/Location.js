@@ -3,6 +3,11 @@ import Icon from "../../assets/Icon.png";
 import Dash from "../../assets/DoorDash_Logo.svg";
 import "./Location.css";
 
+//TODO: ADD UBER EATS BTN TO FISHTOWN --when active
+//<button className="order"> Order online with <br></br>
+//<img src={} alt="UberEats" />
+//</button>
+
 function Locations() {
   return (
     <div className="location_wrapper" name="location">
@@ -53,7 +58,7 @@ function Locations() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.grubhub.com/restaurant/humptys-dumplings-277-n-keswick-ave-glenside/1739615"
+                href="https://www.grubhub.com/restaurant/humptys-dumplings-277-n-keswick-ave-glenside/1739615?classicAffiliateId=%2Fr%2Fw%2F1739615%2F&utm_source=grubcentral.grubhub.com&utm_medium=OOL&utm_campaign=order%20online&utm_content=1739615"
               >
                 <button className="order">
                   Order online with <br></br> GRUBHUB
@@ -114,16 +119,13 @@ function Locations() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.grubhub.com/restaurant/humptys-dumplings-102-w-girard-ave-philadelphia/1486576"
+                href="https://www.grubhub.com/restaurant/humptys-dumplings-102-w-girard-ave-philadelphia/1486576?classicAffiliateId=%2Fr%2Fw%2F1486576%2F&utm_source=grubcentral.grubhub.com&utm_medium=OOL&utm_campaign=order%20online&utm_content=1486576"
               >
                 <button className="order">
                   Order online with <br></br> GRUBHUB
                 </button>
               </a>
-              <button className="order">
-                Order online with <br></br>
-                <img src={Dash} alt="DOORDASH" />
-              </button>
+              
             </div>
           </div>
         </div>
@@ -149,14 +151,16 @@ function Locations() {
               </div>
               <div className="center_text bottom">
                 <p>
-                  <span className="bold">West Chester Grower’s Market</span>
+                  <span className="bold">Lansdale Farmer's Market*</span>
                 </p>
                 <p>
-                  North Church and West Chestnut Streets Downtown West Chester,
-                  PA
+                645 W 9th St, Lansdale, PA 19446
                 </p>
                 <p>
                   Every Saturday:<span className="bold"> 9am - 1pm</span>
+                </p>
+                <p className="limited">
+                  *Saturday Jun 6, 2020 - Saturday Nov 21, 2020
                 </p>
               </div>
             </div>

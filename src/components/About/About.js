@@ -95,10 +95,10 @@ function About() {
                 <p className="social_rating">4.9 / 5</p>
                 <p className="social_name">Google</p>
             </div></a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.groupon.com/biz/willow-grove-pa/humptys-dumplings">  <div className="social_media_rating">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.grubhub.com/restaurant/humptys-dumplings-277-n-keswick-ave-glenside/1739615?classicAffiliateId=%2Fr%2Fw%2F1739615%2F&utm_source=grubcentral.grubhub.com&utm_medium=OOL&utm_campaign=order%20online&utm_content=1739615">  <div className="social_media_rating">
                <div className="social_icon groupon"><img src={Groupon} alt="groupon" /></div> 
-                <p className="social_rating">4.6 / 5</p>
-                <p className="social_name">Groupon</p>
+                <p className="social_rating">4.5 / 5</p>
+                <p className="social_name">GrubHub</p>
             </div></a>
             <a target="_blank" rel="noopener noreferrer" href="https://foursquare.com/v/humptys-dumplings/55946d0b498eb09835c86c0f"><div className="social_media_rating">
                <div className="social_icon foursq"><img src={FourSquare} alt="foursquare" /></div> 
