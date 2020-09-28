@@ -12,11 +12,12 @@ function Contact() {
         </div>
       </div>
       <div className="form_wrapper">
-        <form name="contact" method="POST" netlify>
+        <form name="contact" action="/contact" method="POST">
+        <input type="hidden" name="form-name" value="contact" />
           <p>Name</p>
-          <input type="text" name="name"  />
+          <input required type="text" name="name"  />
           <p>Email</p>
-          <input type="text" name="email" />
+          <input required type="text" name="email" />
           <p>Subject</p>
           <select className="classic" name="select">
             <option value="0">General Info</option>
@@ -24,7 +25,7 @@ function Contact() {
             <option value="2">Food Truck</option>
           </select>
           <p>Message</p>
-          <textarea name="message" />
+          <textarea required name="message" />
           <button type="submit" className="send">Send</button>
         </form>
       </div>
