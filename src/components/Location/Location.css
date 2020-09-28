@@ -256,6 +256,57 @@
   background: #b22222;
 }
 
+.modal_form_wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.modal_form h2{
+  color: #b22222;
+  text-transform: uppercase;
+  opacity: 1;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.modal_form{
+  width: 340px;
+  padding: 50px 0px
+}
+
+.modal_form input{
+  width: 100%;
+  border: 1px solid #d1d2d4;
+  border-radius: 5px;
+  opacity: 1;
+  text-indent: 20px;
+  font-size: 16px;
+  outline: none;
+}
+.modal_form textarea{
+  width: 100%;
+  border: 1px solid #d1d2d4;
+  border-radius: 5px;
+  opacity: 1;
+  font-size: 16px;
+  outline: none;
+}
+
+.modal_form_send {
+  width: 340px;
+  height: 46px;
+  color: #b22222;
+  border: 1px solid #b22222;
+  border-radius: 5px;
+  opacity: 1;
+  background-color: transparent;
+}
+
+.modal_form_send:hover {
+  background: #b22222;
+  color: white;
+}
+
 .insta {
   background-image: url(../../assets/Icon_Instagram.svg);
   background-color: transparent;

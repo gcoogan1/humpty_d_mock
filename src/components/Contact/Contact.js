@@ -18,12 +18,6 @@ function Contact() {
           <input required type="text" name="name"  />
           <p>Email</p>
           <input required type="text" name="email" />
-          <p>Subject</p>
-          <select className="classic" name="select">
-            <option value="0">General Info</option>
-            <option value="1">Catering</option>
-            <option value="2">Food Truck</option>
-          </select>
           <p>Message</p>
           <textarea required name="message" />
           <button type="submit" className="send">Send</button>

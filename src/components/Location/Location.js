@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import Icon from "../../assets/Icon.png";
 import Dash from "../../assets/DoorDash_Logo.svg";
+import Modal from '../Modal/Modal';
 import "./Location.css";
 
 //TODO: ADD UBER EATS BTN TO FISHTOWN --when active
@@ -9,6 +10,10 @@ import "./Location.css";
 //</button>
 
 function Locations() {
+
+  const [showTruckModal, setTruckModal] = useState(false);
+  const [showCaterModal, setCaterModal] = useState(false);
+
   return (
     <div className="location_wrapper" name="location">
       <div className="location_header">
@@ -180,7 +185,7 @@ function Locations() {
           <h2>Food Truck</h2>
           <p>Get Information and Quotes</p>
           <div className="togo_btn_wrapper">
-            <button className="togo_btn">Send Message</button>
+            <button className="togo_btn" onClick={() => {setTruckModal(true)}} >Send Message</button>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -195,10 +200,34 @@ function Locations() {
           <h2>Catering</h2>
           <p>Build Your Own Packages for 6 to 200 People</p>
           <div className="togo_btn_wrapper">
-            <button className="togo_btn">Get In Touch</button>
+            <button className="togo_btn" onClick={() => {setCaterModal(true)}}>Get In Touch</button>
           </div>
         </div>
       </div>
+      <Modal opened={showTruckModal} close={() => setTruckModal(false)}> 
+         <div className="modal_form_wrapper">
+         <form className="modal_form"name="truck_contact" method="POST">
+         <input type="hidden" name="form-name" value="truck_contact" />
+         <h2>FOOD TRUCK</h2>
+            <input type="text" name="name" placeholder="Your Name" />
+            <input type="text" name="name" placeholder="Your Email" />
+            <textarea name="message" placeholder="Your Message"/>
+            <button className="modal_form_send" type="submit">Send</button>
+          </form>
+         </div>
+      </Modal>
+      <Modal opened={showCaterModal} close={() => setCaterModal(false)}> 
+         <div className="modal_form_wrapper">
+         <form className="modal_form" name="catering_contact" method="POST">
+         <input type="hidden" name="form-name" value="catering_contact" />
+         <h2>CATERING</h2>
+            <input type="text" name="name" placeholder="Your Name" />
+            <input type="text" name="name" placeholder="Your Email" />
+            <textarea name="message" placeholder="Your Message"/>
+            <button className="modal_form_send" type="submit">Send</button>
+          </form>
+         </div>
+      </Modal>
     </div>
   );
 }
