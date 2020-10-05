@@ -1,6 +1,7 @@
 import Image from "../assets/Image.png";
 import Star from "../assets/star.png";
 import Vegan from '../assets/Vegan.svg';
+import Salad from '../assets/food/Salad.jpg';
 
 
 
@@ -8,7 +9,7 @@ const salad = [
   {
     id: 1,
     meal: "Asian Pear & Walnut Salad",
-    image: Image,
+    image: Salad,
     vegan: Vegan,
     star: Star,
     info:

@@ -23,6 +23,7 @@ const Meal = ({ image, info, meal, vegan, star }) => {
         <img
           src={image}
           alt=""
+          className="meal_image"
           onMouseEnter={() => setIsShown(true)}
           onMouseLeave={() => setIsShown(false)}
         />

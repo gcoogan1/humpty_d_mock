@@ -68,3 +68,8 @@
 .meal_card:hover .arrow_box {
   visibility: visible;
 }
+
+.meal_image{
+  width: 150px;
+height: 117px;
+}

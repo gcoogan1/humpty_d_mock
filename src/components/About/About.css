@@ -35,12 +35,12 @@
   padding: 100px 0px;
   grid-gap: 70px;
   grid-template-columns: 400px 400px;
-  grid-template-rows: 380px 380px;
+  grid-template-rows: 450px 450px;
 }
 
 .about_block {
   width: 400px;
-  height: 380px;
+  height: 450px;
   background-color: #ffffff;
 }
 .text {
@@ -183,7 +183,7 @@
 @media (min-width: 320px) and (max-width: 1024px) {
   .about_center {
     grid-template-columns: none;
-    grid-template-rows: 300px 380px 320px 300px;
+    grid-template-rows: 400px 400px 400px 400px;
     grid-gap: 50px;
   }
 
@@ -209,7 +209,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   .about_center {
-    grid-template-rows: 400px 380px 400px 380px;
+    grid-template-rows: 500px 380px 500px 380px;
   }
 
   .about_block {

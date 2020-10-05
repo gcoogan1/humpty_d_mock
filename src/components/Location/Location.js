@@ -9,6 +9,7 @@ import "./Location.css";
 //<img src={} alt="UberEats" />
 //</button>
 
+
 function Locations() {
 
   const [showTruckModal, setTruckModal] = useState(false);
