@@ -69,6 +69,25 @@
   width: 281px;
   font-size: 16px;
   display: flex;
+  justify-content: center;
+}
+
+.location_card_closed{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.location_card_closed_border{
+  border-top: 1px solid #b32222;
+  border-bottom: 1px solid #b32222;
+  padding: 15px 0px
+}
+.location_card_closed_border p{
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .left {
@@ -170,6 +189,9 @@
   justify-content: center;
   align-items: flex-end;
 }
+.pre_order_wrapper a {
+  margin-bottom: -15px;
+}
 .pre_order_btn {
   width: 132px;
   height: 46px;
@@ -180,6 +202,7 @@
   border: 1px solid #b32222;
   font-size: 16px;
 }
+
 
 .pre_order_btn:hover {
   background-color: #751414;

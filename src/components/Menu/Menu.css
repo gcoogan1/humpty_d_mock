@@ -104,20 +104,14 @@
   font-size: 24px;
 }
 
-
-@media (min-width: 320px) and (max-width: 480px) {
-  
+@media (min-width: 320px) and (max-width: 767px) {
   .fancy span:before,
   .fancy span:after {
-    
     width: 50px;
   }
-  
 }
 
-
 @media (min-width: 320px) and (max-width: 768px) {
-  
   .speciality_box {
     width: 340px;
     font-size: 12px;
@@ -125,26 +119,25 @@
     grid-template-columns: none;
     padding: 40px 20px;
   }
-  
+
   .vegan_info {
-   width: 100%;
+    width: 100%;
   }
 
-  .higher{
+  .higher {
     grid-row-start: 1;
   }
-  .lower{
+  .lower {
     grid-row-start: 2;
   }
-  
+
   .vegan_info p {
     display: inline-flex;
   }
-  
+
   .align {
     margin-top: -5px;
     margin-right: 10px;
     font-size: 24px;
   }
-  
 }

@@ -1,7 +1,7 @@
 import Image from "../assets/Image.png";
 import Star from "../assets/star.png";
 import Vegan from '../assets/Vegan.svg';
-import Salad from '../assets/food/Salad.jpg';
+import Salad from '../assets/food/salad-placeholder.png';
 
 
 

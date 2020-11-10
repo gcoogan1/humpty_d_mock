@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Icon from "../../assets/Icon.png";
 import Dash from "../../assets/DoorDash_Logo.svg";
-import Modal from '../Modal/Modal';
+import Modal from "../Modal/Modal";
 import "./Location.css";
 
 //TODO: ADD UBER EATS BTN TO FISHTOWN --when active
@@ -9,9 +9,7 @@ import "./Location.css";
 //<img src={} alt="UberEats" />
 //</button>
 
-
 function Locations() {
-
   const [showTruckModal, setTruckModal] = useState(false);
   const [showCaterModal, setCaterModal] = useState(false);
 
@@ -101,37 +99,12 @@ function Locations() {
                 </div>
               </div>
               <div className="location_card_info_display">
-                <div className="left">
-                  <p>Phone</p>
-                </div>
-                <div className="right">
-                  {" "}
-                  <p>(215) 515-3250</p>
+                <div className="location_card_closed">
+                  <div className="location_card_closed_border">
+                    <p>THIS LOCATION IS TEMPORARILY CLOSED</p>
+                  </div>
                 </div>
               </div>
-              <div className="location_card_info_display">
-                <div className="left">
-                  <p>Hours</p>
-                </div>
-                <div className="right">
-                  {" "}
-                  <p>
-                    Every day: <span className="bold">7pm - 2am</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="location_card_btn">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.grubhub.com/restaurant/humptys-dumplings-102-w-girard-ave-philadelphia/1486576?classicAffiliateId=%2Fr%2Fw%2F1486576%2F&utm_source=grubcentral.grubhub.com&utm_medium=OOL&utm_campaign=order%20online&utm_content=1486576"
-              >
-                <button className="order">
-                  Order online with <br></br> GRUBHUB
-                </button>
-              </a>
-              
             </div>
           </div>
         </div>
@@ -159,9 +132,7 @@ function Locations() {
                 <p>
                   <span className="bold">Lansdale Farmer's Market*</span>
                 </p>
-                <p>
-                645 W 9th St, Lansdale, PA 19446
-                </p>
+                <p>645 W 9th St, Lansdale, PA 19446</p>
                 <p>
                   Every Saturday:<span className="bold"> 9am - 1pm</span>
                 </p>
@@ -176,7 +147,13 @@ function Locations() {
               <h3>Farmers Market</h3>
             </div>
             <div className="pre_order_wrapper">
-              <button className="pre_order_btn">Pre-Order</button>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://humptys-dumplings.square.site/"
+              >
+                <button className="pre_order_btn">Pre-Order</button>
+              </a>
             </div>
           </div>
         </div>
@@ -186,7 +163,14 @@ function Locations() {
           <h2>Food Truck</h2>
           <p>Get Information and Quotes</p>
           <div className="togo_btn_wrapper">
-            <button className="togo_btn" onClick={() => {setTruckModal(true)}} >Send Message</button>
+            <button
+              className="togo_btn"
+              onClick={() => {
+                setTruckModal(true);
+              }}
+            >
+              Send Message
+            </button>
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -201,33 +185,44 @@ function Locations() {
           <h2>Catering</h2>
           <p>Build Your Own Packages for 6 to 200 People</p>
           <div className="togo_btn_wrapper">
-            <button className="togo_btn" onClick={() => {setCaterModal(true)}}>Get In Touch</button>
+            <button
+              className="togo_btn"
+              onClick={() => {
+                setCaterModal(true);
+              }}
+            >
+              Get In Touch
+            </button>
           </div>
         </div>
       </div>
-      <Modal opened={showTruckModal} close={() => setTruckModal(false)}> 
-         <div className="modal_form_wrapper">
-         <form className="modal_form"name="truck_contact" method="POST">
-         <input type="hidden" name="form-name" value="truck_contact" />
-         <h2>FOOD TRUCK</h2>
+      <Modal opened={showTruckModal} close={() => setTruckModal(false)}>
+        <div className="modal_form_wrapper">
+          <form className="modal_form" name="truck_contact" method="POST">
+            <input type="hidden" name="form-name" value="truck_contact" />
+            <h2>FOOD TRUCK</h2>
             <input type="text" name="name" placeholder="Your Name" />
             <input type="text" name="name" placeholder="Your Email" />
-            <textarea name="message" placeholder="Your Message"/>
-            <button className="modal_form_send" type="submit">Send</button>
+            <textarea name="message" placeholder="Your Message" />
+            <button className="modal_form_send" type="submit">
+              Send
+            </button>
           </form>
-         </div>
+        </div>
       </Modal>
-      <Modal opened={showCaterModal} close={() => setCaterModal(false)}> 
-         <div className="modal_form_wrapper">
-         <form className="modal_form" name="catering_contact" method="POST">
-         <input type="hidden" name="form-name" value="catering_contact" />
-         <h2>CATERING</h2>
+      <Modal opened={showCaterModal} close={() => setCaterModal(false)}>
+        <div className="modal_form_wrapper">
+          <form className="modal_form" name="catering_contact" method="POST">
+            <input type="hidden" name="form-name" value="catering_contact" />
+            <h2>CATERING</h2>
             <input type="text" name="name" placeholder="Your Name" />
             <input type="text" name="name" placeholder="Your Email" />
-            <textarea name="message" placeholder="Your Message"/>
-            <button className="modal_form_send" type="submit">Send</button>
+            <textarea name="message" placeholder="Your Message" />
+            <button className="modal_form_send" type="submit">
+              Send
+            </button>
           </form>
-         </div>
+        </div>
       </Modal>
     </div>
   );
