@@ -9,7 +9,7 @@
 @media (min-width: 480px) and (max-width: 1024px) {
     .dumplings_display{
         grid-gap: 20px;
-        padding: 50px 10px;
+        padding: 50px 20px;
     }
  
       

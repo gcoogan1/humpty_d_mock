@@ -22,7 +22,7 @@ function Locations() {
         </div>
       </div>
       <div className="location_cards">
-        <div className="location_card">
+        <div className="location_card r">
           <div className="location_card_center">
             <h2>Keswick Village</h2>
             <div className="location_card_info">
@@ -81,7 +81,7 @@ function Locations() {
             </div>
           </div>
         </div>
-        <div className="location_card">
+        <div className="location_card l">
           <div className="location_card_center">
             <h2>Fishtown</h2>
             <div className="location_card_info">
