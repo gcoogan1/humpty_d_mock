@@ -23,10 +23,15 @@
   flex-wrap: wrap;
 }
 
+.navbar span{
+  margin-top: 10px;
+}
+
 .navbar li {
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
+  margin: 10px 10px;
 }
 
 .navbar li::after {
