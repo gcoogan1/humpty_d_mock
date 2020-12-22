@@ -2,10 +2,10 @@
 import Star from '../assets/star.png';
 //import Noodles from '../assets/food/noodles-placeholder.png';
 import BuffaloChicken from "../assets/food/recents/noodles/buffalo-chicken-noodles.png";
-import Cheesesteak from "../assets/food/recents/noodles/cheesesteak-noodles.png";
+import Cheesesteak from "../assets/food/recents/noodles/cheesesteak-noodles2.png";
 import ChickenPotPie from "../assets/food/recents/noodles/chicken-pot-pie-noodles.png";
 import HoneyChipotle from "../assets/food/recents/noodles/honey-chipotle-chicken-noodles.png";
-import ItalianRoast from "../assets/food/recents/noodles/italian-roast-pork-noodles.png";
+import ItalianRoast from "../assets/food/recents/noodles/roast-pork.png";
 
 
 
