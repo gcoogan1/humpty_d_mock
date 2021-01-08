@@ -6,7 +6,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-gap: 40px;
+}
+
+.big_logo{
+  margin-bottom: 10px;
 }
 
 .find_us {
@@ -16,7 +19,7 @@
   height: 66px;
   justify-content: center;
   align-items: center;
-  grid-gap: 10px;
+
 }
 
 .find_us p {
@@ -26,7 +29,7 @@
 .find_us_links {
   display: flex;
   flex-direction: row;
-  grid-gap: 16px;
+ /* grid-gap: 16px;*/
 }
 
 .find_us_link {
@@ -37,6 +40,7 @@
   border-radius: 100px;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 5px 5px;
 }
 
 .find_us_link:hover{

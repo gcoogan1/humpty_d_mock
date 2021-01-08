@@ -261,7 +261,7 @@
 .togo_btn_wrapper {
   padding-top: 10px;
   display: flex;
-  grid-gap: 10px;
+  /*grid-gap: 10px;*/
 }
 .togo_btn {
   padding: 16px 30px;
@@ -270,6 +270,7 @@
   border-radius: 5px;
   border: 1px solid #b22222;
   background:  #FAFAFA;
+  margin: 0px 10px;
 }
 
 .togo_btn:hover {
