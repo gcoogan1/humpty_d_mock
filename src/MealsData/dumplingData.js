@@ -11,6 +11,7 @@ import ItalianRoast from '../assets/food/recents/dumplings/italian-roast-dumplin
 import MedCauliflower from '../assets/food/recents/dumplings/mediterranean-cauliflower-dumpling.png';
 import MixedBerry from '../assets/food/recents/dumplings/mixed-berry-cheesecake-dumpling.png';
 import SpinachMozz from '../assets/food/recents/dumplings/spinach-mozzarella-ricotta-dumpling.png';
+import OreoCheesecake from "../assets/food/recents/dumplings/oreo-dumpling.png";
 
 
 
@@ -28,6 +29,7 @@ const dumplings = [
     { "id": 7, "meal":"Spinach Mozzarella & Ricotta", "image": SpinachMozz, "vegan" : Vegan, "star": Star, "info": "Spinach Mozzarella & Ricotta."},
     { "id": 8, "meal":"Mediterranean Roasted Cauliflower", "image": MedCauliflower, "vegan" : Vegan, "star": Star, "info": "Roasted cauliflower & carrots, rose harissa, pomegranate, and cilantro."},
     { "id": 9, "meal":"Italian Roast Pork", "image": ItalianRoast, "vegan" : "", "star": Star, "info": "Pork loin, broccoli rabe, herb & garlic sauce w/ imported aged provolone."},
+    { "id": 10, "meal":"Oreo Cheesecake", "image": OreoCheesecake, "vegan" : "", "star": Star, "info": "Oreo cheesecake filling, tossed in oreo crumbles."},
 
 ];
 
