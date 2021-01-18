@@ -17,7 +17,7 @@ const bowls = [
     { "id": 3, "meal":"Cheesesteak", "image": Cheesesteak, "vegan" : "", "star": "","info": "Chip steak, peppers, onions, cheese sauce. garnished with scallions."},
     { "id": 4, "meal":"Italian Roast Pork", "image": ItalianRoast, "vegan" : "", "star": "","info": "Pork loin, broccoli rabe, sharp provolone with our own housemade herb and garlic sauce."},
     { "id": 5, "meal":"Honey Chipotle Chicken", "image": HoneyChipotle, "vegan" : "", "star": "", "info": "Sauteed onions and crispy chicken tossed in Humpty's Honey BBQ sauce with a ranch drizzle and scallion garnish."},
-    { "id": 6, "meal":"Chicken Parmesan", "image": ChickenParm, "vegan" : "", "star": Star, "info": "Crispy chicken cutlet, fried cheesy bites, house-made tomato sauce w/ fresh grated parmesan on top.."},
+    { "id": 6, "meal":"Chicken Parmesan", "image": ChickenParm, "vegan" : "", "star": Star, "info": "Crispy chicken cutlet, fried cheesy bites, house-made tomato sauce w/ fresh grated parmesan on top."},
    
     
 

@@ -17,7 +17,7 @@
   list-style-type: none;
   display: flex;
   justify-content: center;
-  grid-gap: 20px;
+
   padding-top: 40px;
   padding-inline-start: 0px;
   flex-wrap: wrap;
@@ -31,7 +31,7 @@
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
-  margin: 10px 10px;
+  margin: 10px 20px;
 }
 
 .navbar li::after {

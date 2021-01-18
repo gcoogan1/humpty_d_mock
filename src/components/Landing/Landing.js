@@ -167,7 +167,6 @@ function Landing() {
               >
                 <li>Contact Us</li>
               </Link>
-                
             </ul>
       </MobileMenu>
     );
@@ -229,6 +228,16 @@ function Landing() {
                 {" "}
                 <li>Contact us</li>
               </Link>
+              <span>|</span>
+              <a
+                target="_blank"
+                style={{color: "black"}}
+                rel="noopener noreferrer"
+                href="https://humptys-dumplings.square.site/?shipping=true"
+              >
+                {" "}
+                <li>Shipping</li>
+              </a>
             </ul>
           </div>
           <Link

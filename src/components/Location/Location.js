@@ -62,20 +62,20 @@ function Locations() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.grubhub.com/restaurant/humptys-dumplings-277-n-keswick-ave-glenside/1739615?classicAffiliateId=%2Fr%2Fw%2F1739615%2F&utm_source=grubcentral.grubhub.com&utm_medium=OOL&utm_campaign=order%20online&utm_content=1739615"
+                href="https://humptysdumplings.getbento.com/online-ordering/humptys-dumplings/menu"
               >
                 <button className="order">
-                  Order online with <br></br> GRUBHUB
+                  Local Delivery
                 </button>
               </a>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.doordash.com/store/humpty-s-dumplings-glenside-158774/en-US/?utm_medium=website&utm_source=partner-link"
+                href="https://humptys-dumplings.square.site/?shipping=true"
               >
                 {" "}
                 <button className="order">
-                  Order online with <br></br> <img src={Dash} alt="DOORDASH" />
+                  Shipping
                 </button>
               </a>
             </div>
