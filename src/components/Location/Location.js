@@ -65,7 +65,7 @@ function Locations() {
                 href="https://humptysdumplings.getbento.com/online-ordering/humptys-dumplings/menu"
               >
                 <button className="order">
-                  Local Delivery
+                  Online Ordering
                 </button>
               </a>
               <a
