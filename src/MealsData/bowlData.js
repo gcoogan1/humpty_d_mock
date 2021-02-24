@@ -6,7 +6,8 @@ import Cheesesteak from "../assets/food/recents/noodles/cheesesteak-noodles2.png
 import ChickenPotPie from "../assets/food/recents/noodles/chicken-pot-pie-noodles.png";
 import HoneyChipotle from "../assets/food/recents/noodles/honey-chipotle-chicken-noodles.png";
 import ItalianRoast from "../assets/food/recents/noodles/roast-pork.png";
-import ChickenParm from "../assets/food/recents/noodles/chicken-parm-noodles.png";
+//import ChickenParm from "../assets/food/recents/noodles/chicken-parm-noodles.png";
+import ChickenBaconRanch from "../assets/food/recents/noodles/cbr.png"
 
 
 
@@ -17,7 +18,7 @@ const bowls = [
     { "id": 3, "meal":"Cheesesteak", "image": Cheesesteak, "vegan" : "", "star": "","info": "Chip steak, peppers, onions, cheese sauce. garnished with scallions."},
     { "id": 4, "meal":"Italian Roast Pork", "image": ItalianRoast, "vegan" : "", "star": "","info": "Pork loin, broccoli rabe, sharp provolone with our own housemade herb and garlic sauce."},
     { "id": 5, "meal":"Honey Chipotle Chicken", "image": HoneyChipotle, "vegan" : "", "star": "", "info": "Sauteed onions and crispy chicken tossed in Humpty's Honey BBQ sauce with a ranch drizzle and scallion garnish."},
-    { "id": 6, "meal":"Chicken Parmesan", "image": ChickenParm, "vegan" : "", "star": Star, "info": "Crispy chicken cutlet, fried cheesy bites, house-made tomato sauce w/ fresh grated parmesan on top."},
+    { "id": 6, "meal":"Chicken Bacon Ranch", "image": ChickenBaconRanch, "vegan" : "", "star": Star, "info": "Crispy chicken cutlet, thick cut hickory bacon, smoked gouda sauce w/ ritz crackers ranch drizzle and scallions for garnish."},
    
     
 
