@@ -28,7 +28,7 @@ const dumplings = [
     { "id": 6, "meal":"Spinach Mozzarella & Ricotta", "image": SpinachMozz, "vegan" : Vegan, "star": Star, "info": "Spinach Mozzarella & Ricotta."},
     { "id": 7, "meal":"Jackfruit Enchilada", "image": Jackfruit, "vegan" : '', "star": Star, "info": "Beans, rice, corn, fire roasted tomatoes, jackfruit, and lime."},
     { "id": 8, "meal":"Italian Roast Pork", "image": ItalianRoast, "vegan" : "", "star": Star, "info": "Pork loin, broccoli rabe, herb & garlic sauce w/ imported aged provolone."},
-    { "id": 9, "meal":"Oreo Cheesecake", "image": OreoCheesecake, "vegan" : "", "star": Star, "info": "Oreo cheesecake filling, tossed in oreo crumbles."},
+    { "id": 9, "meal":"S'mores", "image": OreoCheesecake, "vegan" : "", "star": Star, "info": "Fudgy chocolate, melty marshmallow, and graham cracker crust."},
 
 ];
 
