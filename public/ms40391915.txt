@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
+  "Domain": "humptysdumplings.com",
+  "Id": "f0dff169-4e63-4706-b91b-5185493a3ad7"
+}
