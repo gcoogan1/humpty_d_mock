@@ -132,7 +132,7 @@ function Locations() {
                 <p>
                   <span className="bold">Lansdale Farmer's Market*</span>
                 </p>
-                <p>645 W 9th St, Lansdale, PA 19446</p>
+                <p>400 Penn St, Lansdale, PA 19446</p>
                 <p>
                   Every Saturday:<span className="bold"> 9am - 1pm</span>
                 </p>
